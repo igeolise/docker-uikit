@@ -7,6 +7,6 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends git && \
     rm -rf /var/lib/apt/lists/*
 
-RUN git clone --branch v3.0.0-beta.22 --depth 1 https://github.com/uikit/uikit /home/user/uikit/ && \
+RUN git clone --branch v3.0.0-beta.24 --depth 1 https://github.com/uikit/uikit /home/user/uikit/ && \
     cd /home/user/uikit/ && \
     npm install
